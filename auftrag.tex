@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage{xcolor}
+\def\farbe{blue}
+
+\usepackage{dclecture}
+
+
+
+
+
+
+%%% Fancy Header and Footer
+\renewcommand{\headrule}{\vbox to 0pt{\hbox to\headwidth{\color{\farbe}\rule{\headwidth}{1pt}}\vss}}
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und Fusszeilenfelder bereinigen
+\fancyhead[C]{Auftrag: Blogeintrag} %Kopfzeile mitte
+%\fancyhead[R]{\includegraphics[width=0.2cm]{x.png}}
+\fancyfoot[C]{\thepage}
+
+
+
+
+
+
+
+\begin{document}
+\section*{Auftrag}
+Erstellen Sie einen Blogeintrag über ein selbst gewähltes Thema. Das Thema darf weder beleidigend, rassistisch noch sonst irgendwie diskriminierend sein. Ebenso sollten die Grenzen des "guten Geschmacks" eingehalten werden. Dieser Blogeintrag bildet einen Teil ihrer ersten Leistungsbeurteilung im Fach Informatik. 
+
+Der Abgabe Termin ist der 20.10.2023 um 23:59. Sämtliche \emph{commits}, die bis zu diesem Zeitpunkt getätigt wurden, werden in der Bewertung berücksichtigt.
+
+\section*{Formales} 
+Der Blogeintrag sollte in \verb|html| verfasst sein. Verwenden Sie eine separate \verb|css|-Datei für die Stilisierung. Die Seite sollte mindestens ein Bild oder eine Graphik enthalten.
+Im unteren Bereich der Webseite sollten sie ihren Quellen mit Links angeben. Verwenden Sie \verb|css| um ihre Seite sinnvoll und ansprechend zu gestalten.
+
+Geben Sie sämtliche Suchen, KI Prompts und sonstige Hilfen, die Sie verwendet haben in einer zusätzlichen Text-Datei namens \verb|quellen.txt| an.
+
+\section*{Beurteilung}
+Die Beurteilung wird nach dem Schema, den Sie auf OneNote finden erfolgen. Sowohl die Seite selber als auch Ihre Dokumentation über den Prozess (google-Suchen, KI prompts, commit Nachrichten und Kommentare im \verb|html| resp. \verb|css|) fliessen in die Schlussnote ein.
+\end{document}
