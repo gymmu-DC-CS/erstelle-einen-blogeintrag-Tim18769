@@ -5,9 +5,9 @@ stackoverflow.com
 datacadamia.com
 javatpoint.com
 
-Auf die Webseiten bin ich meistens gestossen, indem ich meine Frage auf Englisch in Google gesucht habe, zB: "How to create image zoom css."
+Auf die Webseiten bin ich meistens gestossen, indem ich meine Frage auf Englisch in Google gestellt habe, z.B.: "How to create image zoom css."
 
-Als Hilfestellung falls ich nicht wusste wo der Fehler in meinem Code lag und ich auch nichts im Internet finden konnte, habe ich chat.openai.com verwendet. Ich habe der KI dann meinen Code geschickt und sie gefragt, warum xy nicht funktioniert und dass die KI mir die korrekte Lösung präsentieren soll, zB: "Warum funktioniert xy nicht, obwohl es eigentlich xy tuen soll? Schicke mir bitte den korrekten Code. Hier ist mein Code: (Mein Code)."
+Als Hilfestellung falls ich nicht wusste wo der Fehler in meinem Code lag und ich auch nichts im Internet finden konnte, habe ich chat.openai.com verwendet. Ich habe der KI dann meinen Code geschickt und sie gefragt, warum xy nicht funktioniert und dass die KI mir die korrekte Lösung präsentieren soll, z.B.: "Warum funktioniert xy nicht, obwohl es eigentlich xy tun soll? Schicke mir bitte den korrekten Code. Hier ist mein Code: (Mein Code)."
 
 Folgend Webseiten habe ich für die Bilder verwendet:
 google.com
