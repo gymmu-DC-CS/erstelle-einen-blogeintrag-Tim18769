@@ -4,6 +4,7 @@
   box-sizing: content-box;
 }
 
+/* Hintergrund, Schriftart */
 body {
   margin: 0;
   background-color: lightgray;
@@ -12,6 +13,7 @@ body {
   background-size: 100px;
 }
 
+/* Style vom Inhaltsverzeichnis */
 .intro {
   width: 40%;
   margin-left: auto;
@@ -22,6 +24,11 @@ body {
   background-color: white;
 }
 
+ul {
+  list-style: none;
+}
+
+/* Formatierung von dem Titelbild */
 .titelManchesterUnited {
   display: block;
   width: 40%;
@@ -30,18 +37,15 @@ body {
   margin-top: 100px;
 }
 
-ul {
-  list-style: none;
-}
-
+/* Styling für den Text, die Border und die Bilder */
 .textManchesterUnited {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  filter: blur(10px);
-  user-select: none;
-  pointer-events: none;
+  filter: blur(10px); /* Damit man den Text nicht lesen kann bevor man eingeloggt ist */
+  user-select: none; /* Damit man den Text nicht markieren kopieren kann bevor man eingeloggt ist */
+  pointer-events: none; /* Damit man nichts im Text anklicken kann bevor man eingeloggt ist */
 }
 
 .textGeschichte {
@@ -141,6 +145,7 @@ ul {
   border: 2px solid black;
 }
 
+/* Style für das Login */
 .loginBox {
   position: absolute;
   top: 180%;
@@ -163,4 +168,13 @@ ul {
 
 .loginInfo {
   font-size: 12px;
+}
+
+/* Führt dazu, dass wenn man über ein Bild mit der Maus fährt, es sich vergrössert */
+.textManchesterUnited img {
+  transition: transform .2s;
+}
+
+.textManchesterUnited img:hover {
+  transform: scale(1.5);
 }
