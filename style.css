@@ -4,8 +4,177 @@
   box-sizing: content-box;
 }
 
+/* Hintergrund, Schriftart */
 body {
   margin: 0;
   background-color: lightgray;
   font-family: sans-serif;
+  background-image: url("Hintergrund2.jpeg");
+  background-size: 100px;
+}
+
+/* Style vom Inhaltsverzeichnis */
+.intro {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-style: inset;
+  border-width: 5px;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Formatierung von dem Titelbild */
+.titelManchesterUnited {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* Styling für den Text, die Border und die Bilder */
+.textManchesterUnited {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  filter: blur(10px); /* Damit man den Text nicht lesen kann bevor man eingeloggt ist */
+  user-select: none; /* Damit man den Text nicht markieren kopieren kann bevor man eingeloggt ist */
+  pointer-events: none; /* Damit man nichts im Text anklicken kann bevor man eingeloggt ist */
+}
+
+.textGeschichte {
+  margin-top: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.textGeschichte img {
+  border: 2px solid black;
+}
+
+.textVereinswappen {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textVereinswappen img {
+  border: 2px solid black;
+}
+
+.textSponsoren {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textSponsoren img {
+  border: 2px solid black;
+}
+
+.textStadion {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textStadion img {
+  border: 2px solid black;
+}
+
+.textErfolge {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textErfolge img {
+  border: 2px solid black;
+}
+
+.textSpieler {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textSpieler img {
+  border: 2px solid black;
+}
+
+.textStatistiken {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textStatistiken img {
+  border: 2px solid black;
+}
+
+.textTrainerchronik {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.textTrainerchronik img {
+  border: 2px solid black;
+}
+
+/* Style für das Login */
+.loginBox {
+  position: absolute;
+  top: 180%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loginEingabe {
+  margin: 10px;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+}
+
+.loginInfo {
+  font-size: 12px;
+}
+
+/* Führt dazu, dass wenn man über ein Bild mit der Maus fährt, es sich vergrössert */
+.textManchesterUnited img {
+  transition: transform .2s;
+}
+
+.textManchesterUnited img:hover {
+  transform: scale(1.5);
 }
