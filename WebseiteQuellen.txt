@@ -1,0 +1,14 @@
+Folgende Webseiten habe ich für den Code verwendet:
+www.w3schools.com
+verpex.com
+stackoverflow.com
+datacadamia.com
+javatpoint.com
+
+Auf die Webseiten bin ich meistens gestossen, indem ich meine Frage auf Englisch in Google gesucht habe, zB "How to create image zoom css".
+Als Hilfestellung falls ich nicht wusste wo der Fehler in meinem Code lag und ich auch nichts im Internet finden konnte, habe ich chat.openai.com verwendet.
+
+Folgend Webseiten habe ich für die Bilder verwendet:
+google.com
+canva.com
+remove.bg
