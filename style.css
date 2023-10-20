@@ -36,6 +36,8 @@ ul {
   margin-right: auto;
   text-align: center;
   filter: blur(10px);
+  user-select: none;
+  pointer-events: none;
 }
 
 .textGeschichte {
