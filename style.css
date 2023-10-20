@@ -8,14 +8,94 @@ body {
   margin: 0;
   background-color: lightgray;
   font-family: sans-serif;
+  background-image: url("Hintergrund2.jpeg");
 }
 
-.hallo {
+.intro {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   border-style: inset;
   border-width: 5px;
+  background-color: white;
+}
 
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.textManchesterUnited {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.textGeschichte {
+  margin-top: 100px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.textVereinswappen {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textSponsoren {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textStadion {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textErfolge {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textSpieler {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textStatistiken {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.textTrainerchronik {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 100px;
 }
